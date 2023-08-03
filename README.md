@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/hachem89/Huddle-landing-page-with-single-introductory-section.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site](https://hachem89.github.io/Huddle-landing-page-with-single-introductory-section/)
 
 ## My process
 
@@ -37,6 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@hachcem89](https://www.frontendmentor.io/profile/hachem89)
 
