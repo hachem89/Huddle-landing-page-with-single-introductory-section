@@ -1,0 +1,169 @@
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+  --headings-font: "Poppins", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--Violet);
+  font-family: var(--body-font);
+  background-image: url(./images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+header {
+  padding: 40px 60px;
+}
+
+.introduction-section {
+  flex: 1;
+  display: flex;
+  padding: 0 70px 0 60px;
+  align-items: center;
+  gap: 40px;
+}
+
+.introduction-section .introduction {
+  align-self: flex-start;
+  margin-top: 60px;
+}
+
+.introduction-section .introduction h1 {
+  font-family: var(--headings-font);
+  font-size: 35px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.introduction-section .introduction p {
+  font-size: 16px;
+  width: 70%;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.introduction-section .introduction .register-btn {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 60px;
+  color: var(--Violet);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 100ms ease;
+}
+
+.introduction-section .introduction .register-btn:active {
+  background-color: var(--Soft-Magenta);
+  color: white;
+}
+
+.social-media {
+  position: relative;
+}
+
+.social-media a {
+  position: absolute;
+  bottom: 30px;
+  border: 1px white solid;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-media a:active {
+  color: var(--Soft-Magenta);
+  border-color: var(--Soft-Magenta);
+}
+
+.social-media a.facebook {
+  right: 160px;
+}
+
+.social-media a.twitter {
+  right: 110px;
+}
+
+.social-media a.instagram {
+  right: 60px;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  header {
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+
+  header img {
+    width: 150px;
+  }
+
+  .introduction-section {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .introduction-section img {
+    width: 80%;
+  }
+
+  .introduction-section .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .introduction-section .introduction h1 {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .introduction-section .introduction p {
+    width: 85%;
+  }
+
+  .social-media a {
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+  }
+
+  .social-media a.facebook {
+    left: 34%;
+  }
+
+  .social-media a.twitter {
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .social-media a.instagram {
+    left: 57%;
+  }
+}
