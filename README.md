@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/hachem89/Huddle-landing-page-with-single-introductory-section.git)
+- Solution URL: [solution](https://github.com/hachem89/Huddle-landing-page-with-single-introductory-section.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
